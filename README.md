@@ -1,4 +1,4 @@
-# ke-toan-demo
+# kendo-nuxt demo
 
 ## Build Setup
 
