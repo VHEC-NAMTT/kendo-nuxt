@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 export default {
   // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
   ssr: false,
@@ -15,7 +16,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/build.css'}
+      { rel: 'stylesheet', href: '/build.css'},
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900,900i&display=swap&subset=vietnamese" }
     ],
     script: [
       {src: `/build.js`, body: true},
@@ -45,12 +47,23 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'bootstrap-vue/nuxt',
   ],
+  
+  bootstrapVue: {
+    bootstrapCSS: false, // Or `css: false`
+    bootstrapVueCSS: false // Or `bvCSS: false`
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: "jquery",
+      })
+    ],
   }
 }

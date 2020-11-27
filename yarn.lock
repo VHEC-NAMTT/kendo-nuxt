@@ -853,6 +853,16 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@iconify/json@^1.1.264":
+  version "1.1.264"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.264.tgz#c8a96a63452aa5a45ffdd752e9eb5db4d81285ba"
+  integrity sha512-8roHMDJ/dt9kg2ggXOS7LTXs4BR6vHQDFLIdrKhyXEIRLKRokwOIG1XpdGWVc36VZh/5itwENq5xvdd3r40Ckw==
+
+"@iconify/vue@1":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@iconify/vue/-/vue-1.0.6.tgz#e15c36305b55ca92f51dd514f784ac926bfd6fe7"
+  integrity sha512-hqzfDXN9sEkes1bDzLPbQchOVACMPB5lwGHkk7StD4PuWLXZjgmLKybhLgsssCjWpHTHzE47dmZvB240eLZlYw==
+
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.3.tgz#3a582bdb53804c6ba6d146579c46e52130cf4a3b"
@@ -1220,6 +1230,11 @@
   resolved "https://registry.yarnpkg.com/@progress/kendo-base-components-vue-wrapper/-/kendo-base-components-vue-wrapper-2020.1.115.tgz#65fd2d79459aba0acf5aac8650a15253280cbc0d"
   integrity sha512-qLVFFAungoddV5JSgU+ozTRzgiYeeiNnQhAXcotInAqP35faJivlXCsWEvVzNVKB/2qqluYnbc4WV+FpJBnBRQ==
 
+"@progress/kendo-base-components-vue-wrapper@2020.3.1118":
+  version "2020.3.1118"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-base-components-vue-wrapper/-/kendo-base-components-vue-wrapper-2020.3.1118.tgz#9022589ec47f6a635f53e67085b17178297cd88e"
+  integrity sha512-sz5hFIRJHvgxDdil//iH2KUDIEcHAw3WjpI+ptR18u0/whJXgdGy8oMMCYHRdOP+5jpkmq+xNd+krkXjQ+E1ow==
+
 "@progress/kendo-buttons-vue-wrapper@2020.1.115":
   version "2020.1.115"
   resolved "https://registry.yarnpkg.com/@progress/kendo-buttons-vue-wrapper/-/kendo-buttons-vue-wrapper-2020.1.115.tgz#010b240cdd1dc40e6fa680e1fca87fcf85327324"
@@ -1241,6 +1256,13 @@
   dependencies:
     "@progress/kendo-base-components-vue-wrapper" "2020.1.115"
 
+"@progress/kendo-date-math@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-date-math/-/kendo-date-math-1.2.0.tgz#62fc00b540786b8bb5c7001ecb06b2e3ff05b498"
+  integrity sha512-SVj6lSajwgI/dxqn+Gm1Pe1T8aaQkMmf/1ALETx2pii6SMLDLdCH9tp6Kp+M5t+NDqppLVrdMYDXWng9buiU8A==
+  dependencies:
+    tslib "^1.7.0"
+
 "@progress/kendo-grid-vue-wrapper@2020.1.115":
   version "2020.1.115"
   resolved "https://registry.yarnpkg.com/@progress/kendo-grid-vue-wrapper/-/kendo-grid-vue-wrapper-2020.1.115.tgz#7558fa5ac5574dacd913615731f146938616850a"
@@ -1254,6 +1276,18 @@
   integrity sha512-DP36tCOSjHerQgoye8+5lCrhzqJqTT8fGXYowP0FnmQyeb3+ZcT3GfporxzPFqMqgB/dHy5creVfGMb75pAuBw==
   dependencies:
     "@progress/kendo-base-components-vue-wrapper" "2020.1.115"
+
+"@progress/kendo-layout-vue-wrapper@^2020.3.1118":
+  version "2020.3.1118"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-layout-vue-wrapper/-/kendo-layout-vue-wrapper-2020.3.1118.tgz#bd49690d029ce9c91cfc54a87520755160df4bab"
+  integrity sha512-7Gcr8L5lUqhC0yXqwIktmGtFFPdPnzh6Ezg/ZhyLZ65L8Zk//sg7hQsHunuzJCvh1Kr0EIqoyBN2E14OV4zDgQ==
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2020.3.1118"
+
+"@progress/kendo-popup-common@^1.6.1":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-popup-common/-/kendo-popup-common-1.7.0.tgz#d0d29dbc5eacdaba8803aa3d0f69f8a8ad05dbff"
+  integrity sha512-KxPIXDkirDpJaF/UWFKbe8QpbO5CwdQH/HyNT5Fj1qZb25YaO68VZCisls2qkcEVPHBlXesDcN3QJlt4vJ6tJw==
 
 "@progress/kendo-theme-bootstrap@^2.8.0":
   version "2.18.0"
@@ -1274,12 +1308,69 @@
   dependencies:
     jquery "<=3"
 
+"@progress/kendo-upload-vue-wrapper@^2020.3.1118":
+  version "2020.3.1118"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-upload-vue-wrapper/-/kendo-upload-vue-wrapper-2020.3.1118.tgz#2c585cf94fee557a7aa18a402992974005d6f354"
+  integrity sha512-vCIkGKW49WG7jeXDP0QyeJDnupmy4Z89BxeIe4AkghE/6KgPMWPoMrAQ/oUhYxgdcgkUnct117r+IPpypTqFaA==
+  dependencies:
+    "@progress/kendo-base-components-vue-wrapper" "2020.3.1118"
+
+"@progress/kendo-vue-animation@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-animation/-/kendo-vue-animation-1.1.5.tgz#108b46ff0557457baefaf6d46c2fdecf539fef01"
+  integrity sha512-IUmXp6WZoCx6BN8SdO3w9/g475PlYQOH+L+ugB7SmqWNpMCXSkP70StCUHUzysfMLY8Uufo7lRubusA5huCuEw==
+  dependencies:
+    "@progress/kendo-vue-common" "1.1.5"
+
+"@progress/kendo-vue-common@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-common/-/kendo-vue-common-1.1.5.tgz#710016b1866f3c85571e575bdbe30947695c4851"
+  integrity sha512-CSzRy+VB3V+HuKOHC32DEnblWB5HTmoiTU/uAkCFFGUwtpnfOHGLNb12dPrk4kLlD319SsV+gcZ3BnaI7ru4Hg==
+  dependencies:
+    "@telerik/kendo-draggable" "2.0.0"
+
+"@progress/kendo-vue-dateinputs@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-dateinputs/-/kendo-vue-dateinputs-1.1.5.tgz#2bd622b45113c9534062c399d81ef34ef8a0961c"
+  integrity sha512-f7mUER2Mck8d/rB1XHXao7f2dPb/a15kpOToyYHPUrxD3D9axVw9VWz2XjCd4CL9A/8stxSfHkworXB89I8zcQ==
+  dependencies:
+    "@progress/kendo-date-math" "1.2.0"
+    "@progress/kendo-vue-common" "1.1.5"
+    "@progress/kendo-vue-popup" "1.1.5"
+
+"@progress/kendo-vue-intl@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-intl/-/kendo-vue-intl-1.1.5.tgz#e7dfff9bc5827c8cb8ac91dd0392cec88240b47d"
+  integrity sha512-tyXhZ4ilqVkKmBLSd/98J0cx8dVvYlTGOvoQG0ojn1gD9vxWEiijCIAdjwCj3TIaGg0uw/d8hj7cxABnOZWv3A==
+  dependencies:
+    "@progress/kendo-vue-common" "1.1.5"
+    "@telerik/kendo-intl" "^1.4.4"
+
+"@progress/kendo-vue-popup@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-vue-popup/-/kendo-vue-popup-1.1.5.tgz#b776cb4e6c67b6df16f83f2baf1685b966cccb87"
+  integrity sha512-iN8KAA3XG1twuhGJ/sipgQCb6+TGH8eKZsxcQHBjjwoJld6vsOt9jcqi9tnSYdVt9ARfRPl9u5siV+X4WuwJ8w==
+  dependencies:
+    "@progress/kendo-popup-common" "^1.6.1"
+    "@progress/kendo-vue-animation" "1.1.5"
+    "@progress/kendo-vue-common" "1.1.5"
+
 "@progress/kendo-window-vue-wrapper@2020.1.115":
   version "2020.1.115"
   resolved "https://registry.yarnpkg.com/@progress/kendo-window-vue-wrapper/-/kendo-window-vue-wrapper-2020.1.115.tgz#6e2ca31a25e96d6ccd58da84601e07dfa3177ba4"
   integrity sha512-rDGNhtF4kXSbC2PnaBMdKxYmqS2WoihUmZAByEIgBBYazEnc7aj/Ne0viCZ+EdsWt232p5nmU1mnX/3L0l2qPQ==
   dependencies:
     "@progress/kendo-base-components-vue-wrapper" "2020.1.115"
+
+"@telerik/kendo-draggable@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-draggable/-/kendo-draggable-2.0.0.tgz#95ca6fdc56022d80ab5d0fec98463e2bdf4fc3ec"
+  integrity sha512-6fZcwVZQNh9ovWbueo2VFgpFxktWdxaABe/gVZ+dJy4h+ngkoSr0HSmfUJY5QupMQ1RvLA9hr3Eficbqx+gU0Q==
+
+"@telerik/kendo-intl@^1.4.4":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-intl/-/kendo-intl-1.5.2.tgz#2f2540b0c243c08d95895a8fc925315449f198fc"
+  integrity sha512-T5Ie2QYtbBCYS88hI3ulKhXykH0ds1FWbgaITt6dn9pmjyEbkF66a8iCbtBhI9pAwH0GLqfOoYXRcbBEUth0Sg==
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -2042,7 +2133,18 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrap@^4.4.1:
+bootstrap-vue@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-vue/-/bootstrap-vue-2.19.0.tgz#5019df48251e552a5c34da57fc97dabebd53b02f"
+  integrity sha512-IjAXUSrRU5Qu9x3uwUcoj6LtysKbCVeWoJOsODyI/WokStUr95M+tTIajXUjIrB/Nsk0fS+RNvZnm2sWeNFrhg==
+  dependencies:
+    "@nuxt/opencollective" "^0.3.2"
+    bootstrap ">=4.5.3 <5.0.0"
+    popper.js "^1.16.1"
+    portal-vue "^2.1.7"
+    vue-functional-data-merge "^3.1.0"
+
+"bootstrap@>=4.5.3 <5.0.0":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
   integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
@@ -4852,7 +4954,7 @@ jiti@^0.1.11:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-0.1.16.tgz#f8c7d73b51153edfb43d3e5a4984537198771650"
   integrity sha512-fyMkReB81k8jzf9V97W/aUs8FQP/c4+jcP1+y/7yG8K/I6yhNbKVK9yI/GqUAn9WGLIMqLK95UgtQPHX+j3M8Q==
 
-jquery@<=3:
+jquery@<=3, jquery@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.1.tgz#d7b4d08e1bfdb86ad2f1a3d039ea17304717abb5"
   integrity sha512-XwIBPqcMn57FxfT+Go5pzySnm4KWkT1Tv7gjrpT1srtf8Weynl6R273VJ5GjkRb51IzMp5nbaPjJXMWeju2MKg==
@@ -6117,6 +6219,16 @@ pkg-up@^3.1.0:
   integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
   dependencies:
     find-up "^3.0.0"
+
+popper.js@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
+
+portal-vue@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/portal-vue/-/portal-vue-2.1.7.tgz#ea08069b25b640ca08a5b86f67c612f15f4e4ad4"
+  integrity sha512-+yCno2oB3xA7irTt0EU5Ezw22L2J51uKAacE/6hMPMoO/mx3h4rXFkkBkT4GFsMDv/vEe8TNKC3ujJJ0PTwb6g==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -8126,7 +8238,7 @@ tryer@^1.0.1:
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
 
-tslib@^1.10.0, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.7.0, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -8415,6 +8527,11 @@ vue-client-only@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
+
+vue-functional-data-merge@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/vue-functional-data-merge/-/vue-functional-data-merge-3.1.0.tgz#08a7797583b7f35680587f8a1d51d729aa1dc657"
+  integrity sha512-leT4kdJVQyeZNY1kmnS1xiUlQ9z1B/kdBFCILIjYYQDqZgLqCLa0UhjSSeRX6c3mUe6U5qYeM8LrEqkHJ1B4LA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

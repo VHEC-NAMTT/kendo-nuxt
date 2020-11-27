@@ -1,15 +1,18 @@
 @import "./custom";
-@import '~/node_modules/bootstrap/scss/bootstrap';
-@import '~/node_modules/@progress/kendo-theme-bootstrap/scss/all';
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+@import '@progress/kendo-theme-bootstrap/scss/all';
 @import "./dashboard";
+
+@import "./common.scss";
 
 .container {
     margin:40px;
 }
 
 html, body {
-height: 100%;
-font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -32,4 +35,101 @@ span.active {
 
 .nav-toggle .k-i-hamburger {
     font-size: 32px;
+}
+
+.btn-main{
+    background: #0098e1;
+    color: #fff;
+    font-weight: 500;
+    padding: 3px 20px;
+    min-width: 100px;
+    border: 1px solid #0098e1;
+    &:focus, &.focus{
+        box-shadow: none;
+    }
+    &:active, &.active{
+        background: #0098e1;
+        color: #fff;
+    }
+    &:hover{
+        color: #fff;
+    }
+    &.revert{
+        color: #0098e1;
+        background: #fff;
+    }
+}
+
+.btn-approve{
+    background: #1ad80d;
+    color: #fff;
+    font-weight: 500;
+    padding: 3px 20px;
+    min-width: 100px;
+    border: 1px solid #1ad80d;
+    &:focus, &.focus{
+        box-shadow: none;
+    }
+    &:active, &.active{
+        background: #1ad80d;
+        color: #fff;
+    }
+    &:hover{
+        color: #fff;
+    }
+}
+
+.form-control{
+    padding: 3px 12px;
+    height: 35px;
+    &:focus{
+        box-shadow: none;
+        border: 1px solid #0098e1;
+    }
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mr-10{
+    margin-bottom: 10px;
+}
+
+.k-tabstrip>.k-tabstrip-items .k-item .k-link{
+    padding: .3rem 1rem;
+}
+
+.k-tabstrip-top{
+    .k-tabstrip-items{
+        .k-item{
+            margin-right: 3px;
+            background: rgb(241, 239, 239);
+            border: 1px solid #cecece;
+            color: #000;
+            border-radius: 0;
+            &.k-state-hover{
+                background: #fff;
+            }
+            &.k-state-active{
+                background: #fff;
+            }
+            .k-link{
+                padding: .2rem 1rem;
+            }
+        }
+    }
+    
 }
